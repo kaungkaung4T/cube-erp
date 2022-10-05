@@ -87,12 +87,12 @@ WSGI_APPLICATION = 'cube.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-
+# cube_django
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cube',
-        'USER': 'cubegres',
+        'NAME': 'cube_django',
+        'USER': 'cube_admin',
         'PASSWORD': 'cubecube12345',
         'HOST': 'localhost',
         'PORT': '',
