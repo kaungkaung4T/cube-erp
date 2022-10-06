@@ -6,3 +6,46 @@
 h1 {
  color:red;
 }*/
+
+
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #383b47;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 300px 0 100px;
+  flex-wrap: wrap;
+}
+
+nav ul{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: black;
+  /*color: #f2f2f2;*/
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 550;
+  padding: 8px 11px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+
